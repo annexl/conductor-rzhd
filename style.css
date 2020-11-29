@@ -1,0 +1,50 @@
+@font-face {
+	font-family: RussianRail G Pro;
+	src: url("https://sm-73.ru/rzd/chat/RussianRailGegular.otf");
+	}
+.text {
+	width: 100%; 
+	height: 500px; 
+	font-size: 50pt;
+	font-family: "RussianRail G Pro";
+	color: #767d89;
+	}
+.text-title {
+	font-size: 30pt;
+    font-family: "RussianRail G Pro";
+    text-align: center;
+	color: #767d89;
+	}
+.text-input {
+	width: 95%;
+    height: 100px;
+    margin: 0 0 0 18px;
+    font-size: 20pt;
+    font-family: "RussianRail G Pro";
+	color: #767d89;
+}
+.div-send {
+	width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.send-buttom {
+	width: 100%;
+    height: 100px;
+    background-color: #e31b1a;
+    transition: background-color, color .15s linear;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    border-radius: 0;
+    overflow: hidden;
+    font-size: 40px;
+    font-family: "RussianRail G Pro";
+    border: 0;
+    padding: 0;
+}
+.form {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+}
